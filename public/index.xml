@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tariya321</title>
+    <link>https://tariya321.github.io/</link>
+    <description>Recent content on Tariya321</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Mar 2024 20:43:39 +0800</lastBuildDate>
+    <atom:link href="https://tariya321.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FirstPost</title>
+      <link>https://tariya321.github.io/posts/firstpost/</link>
+      <pubDate>Fri, 29 Mar 2024 20:43:39 +0800</pubDate>
+      <guid>https://tariya321.github.io/posts/firstpost/</guid>
+      <description>Hello World! I&amp;rsquo;m Tariya321.:</description>
+    </item>
+  </channel>
+</rss>
