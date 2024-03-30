@@ -1,4 +1,6 @@
 baseURL = 'https://tariya321.github.io/'
 languageCode = 'en-us'
 title = 'Tariya321'
-theme = 'PaperMod'
+#theme = 'PaperMod'
+theme = 'eureka'
+
