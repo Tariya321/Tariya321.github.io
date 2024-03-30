@@ -6,8 +6,15 @@
     <description>Recent content on Tariya321</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Mar 2024 20:43:39 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 30 Mar 2024 12:04:53 +0800</lastBuildDate>
     <atom:link href="https://tariya321.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publish_with_githubPage</title>
+      <link>https://tariya321.github.io/posts/publish_with_githubpage/</link>
+      <pubDate>Sat, 30 Mar 2024 12:04:53 +0800</pubDate>
+      <guid>https://tariya321.github.io/posts/publish_with_githubpage/</guid>
+      <description>This blog is used to config.</description>
+    </item>
     <item>
       <title>FirstPost</title>
       <link>https://tariya321.github.io/posts/firstpost/</link>
