@@ -59,7 +59,7 @@ adduser hongzhilian
 
 加入sudo权限组
 ```
-usermod -aG sudo hongzhilian
+usermod -aG sudo <user_name>
 ```
 > group `sudo` for debian based OS, group `wheel` for rhel based OS
 
@@ -199,8 +199,8 @@ sudo apt autoremove
 write git conifg file at `~/.gitconfig` for WSL
 ```
 [user]
-    name = Hong Zhilian
-    email = hongzhilian@example.com
+    name = <your_simple_name>
+    email = xxx@example.com
 
 [core]
     editor = nvim

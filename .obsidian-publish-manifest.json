@@ -2,6 +2,7 @@
   "version": 1,
   "generator": "obsidian-github-pages-flow",
   "files": [
+    "content/about.md",
     "content/posts/01_draft/mac使用ssh+x11转发打开gui.md",
     "content/posts/01_draft/组装台式电脑配置.md",
     "content/posts/01_draft/终端工具配置.md",
@@ -9,6 +10,7 @@
     "content/posts/02_note/VTR安装实录.md",
     "content/posts/02_note/Visio.md",
     "content/posts/02_note/conda的安装与配置指南.md",
+    "content/posts/02_note/docker部署overleaf社区版.md",
     "content/posts/02_note/docker部署网页版qq.md",
     "content/posts/02_note/floorplan-macroPlace.md",
     "content/posts/02_note/github action自动推送个人主页更新.md",
@@ -99,6 +101,7 @@
     "static/attachment/来喝茶.png"
   ],
   "notes": [
+    "content/about.md",
     "content/posts/01_draft/mac使用ssh+x11转发打开gui.md",
     "content/posts/01_draft/组装台式电脑配置.md",
     "content/posts/01_draft/终端工具配置.md",
@@ -106,6 +109,7 @@
     "content/posts/02_note/VTR安装实录.md",
     "content/posts/02_note/Visio.md",
     "content/posts/02_note/conda的安装与配置指南.md",
+    "content/posts/02_note/docker部署overleaf社区版.md",
     "content/posts/02_note/docker部署网页版qq.md",
     "content/posts/02_note/floorplan-macroPlace.md",
     "content/posts/02_note/github action自动推送个人主页更新.md",
