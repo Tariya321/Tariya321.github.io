@@ -1,4 +1,5 @@
 ---
+title: "使用webDav同步zotero"
 date: 2025-09-10
 tags:
   - webDav
@@ -6,8 +7,6 @@ tags:
   - 同步
 publish: yes
 ---
-# 使用webDav同步zotero
-
 ## 1. 设置方法
 两边服务器校验成功，mac 端上传附件成功
 win 端打开 pdf 显示路径不正确，说明尚未正确配置

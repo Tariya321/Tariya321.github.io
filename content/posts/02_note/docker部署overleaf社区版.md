@@ -1,10 +1,10 @@
 ---
+title: "docker部署overleaf社区版"
 date: 2025-09-28
 tags:
   - docker
 publish: yes
 ---
-# docker部署overleaf社区版
 ## 1. main
 official链接[^1]
 民间链接[^2]

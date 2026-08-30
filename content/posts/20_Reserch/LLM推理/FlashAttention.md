@@ -1,4 +1,5 @@
 ---
+title: "FlashAttention"
 date: 2026-06-20
 tags:
   - AI
@@ -6,8 +7,6 @@ tags:
   - transformer
 publish: yes
 ---
-# FlashAttention
-
 
 ## 1. 核心思想
 FlashAttention = 用 tiling + online softmax + kernel fusion，把 Attention 的中间矩阵从显存中消除，降低 memory traffic，因此加速 Transformer Attention，尤其是 Prefill 阶段

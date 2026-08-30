@@ -1,11 +1,10 @@
 ---
+title: "vim的markdown预览"
 tags:
   - vim
   - plugin
 publish: yes
 ---
-# vim的markdown预览
-
 ## 1. Linux
 
 [使用 Vim 开始 Markdown 之旅 - 点半九 (dianbanjiu.com)](https://www.dianbanjiu.com/post/%E4%BD%BF%E7%94%A8-vim-%E5%BC%80%E5%A7%8B-markdown-%E4%B9%8B%E6%97%85/)

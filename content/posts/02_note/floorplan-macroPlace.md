@@ -1,10 +1,9 @@
 ---
+title: "floorplan-macroPlace"
 tags:
   - floorplan
 publish: yes
 ---
-# floorplan-macroPlace
-
 ## 1. vocab
 detour
 绕道，绕行

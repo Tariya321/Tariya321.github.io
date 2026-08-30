@@ -1,12 +1,11 @@
 ---
+title: "github action自动推送个人主页更新"
 date: 2024-03-29
 tags:
   - github
   - 主页
 publish: yes
 ---
-# github action自动推送个人主页更新
-
 采用[Host on GitHub Pages | Hugo (gohugo.io)](https://gohugo.io/hosting-and-deployment/hosting-on-github/)方案
 {{< figure src="/attachment/Pasted%20image%2020240329165546.png" alt="Pasted image 20240329165546" width="500" >}}
 推送到github后可见

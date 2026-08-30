@@ -1,12 +1,11 @@
 ---
+title: "docker部署网页版qq"
 date: 2026-08-16
 tags:
   - docker
   - qq
 publish: yes
 ---
-# docker部署网页版qq
-
 需求：只有手机上有qq，但是不希望在其他pc上安装QQ
 但是qq又有一些信息需要阅读，故需要一个支持一键部署且无法多次登录的环境
 

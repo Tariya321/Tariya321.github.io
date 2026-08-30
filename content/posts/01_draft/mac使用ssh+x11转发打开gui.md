@@ -1,4 +1,5 @@
 ---
+title: "mac使用ssh+x11转发打开gui"
 date: 2025-07-05_12:14
 tags:
   - macbook
@@ -6,8 +7,6 @@ tags:
   - x11
 publish: yes
 ---
-# mac使用ssh+x11转发打开gui
-
 please refer: this [note](https://www.cnblogs.com/Undefined443/p/18057261) ,
 and https://blog.iks-ran.com/2025/01/06/x11-forwarding-for-docker-on-macos/
 

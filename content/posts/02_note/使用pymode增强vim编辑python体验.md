@@ -1,4 +1,5 @@
 ---
+title: "使用pymode增强vim编辑python体验"
 date: 2025-05-22_20:52
 tags:
   - vim

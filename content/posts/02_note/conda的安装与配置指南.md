@@ -1,4 +1,5 @@
 ---
+title: "conda的安装与配置指南"
 date: 2025-03-21_18:33
 tags:
   - conda
@@ -6,8 +7,6 @@ tags:
   - 指南
 publish: yes
 ---
-# conda的安装与配置指南
-
 conda官方下载站点（发送链接到邮件）
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
 官方指南

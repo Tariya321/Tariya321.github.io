@@ -1,12 +1,11 @@
 ---
+title: "coralnpu"
 date: 2026-08-15
 tags:
   - npu
   - google
 publish: yes
 ---
-# coralnpu
-
 - coral-npu，google研究团队开源的软硬件方案
 - CoralNPU Nexus FPGA emulation boards (e.g., Board 09, Board 10)
 - 运行于edge端，例如手机、手表等电子设备中

@@ -1,4 +1,5 @@
 ---
+title: "VCS使用指南"
 tags:
   - verification
   - synopsys
@@ -6,8 +7,6 @@ tags:
 date: 2023-12-01
 publish: yes
 ---
-# VCS使用指南
-
 Verilog Compiler Simulator，用来仿真的
 
 [‌﻿⁢⁡‬‍‍​​⁢⁤⁣⁤‬⁤‌‬﻿‌﻿‬‍⁡⁣‬⁢⁡⁡‌⁤​‍﻿﻿⁣⁣⁡‍‍‌⁢⁢‬⁣﻿​‌‬﻿​VCS使用说明 - 飞书云文档 (feishu.cn)](https://inr4q2kmnf.feishu.cn/docx/WA4SdwCMpooIimx4I3Ach54Hnre)

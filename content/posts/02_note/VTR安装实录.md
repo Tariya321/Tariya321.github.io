@@ -1,11 +1,10 @@
 ---
+title: "VTR安装实录"
 date: 2025-09-23
 tags:
   - EDA
 publish: yes
 ---
-# VTR安装实录
-
 ee216-可重构计算的第一个 HW，记录一下安装 VTR 工具的过程
 
 ## 1. install and config

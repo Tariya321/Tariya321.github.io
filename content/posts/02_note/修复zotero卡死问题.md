@@ -1,12 +1,11 @@
 ---
+title: "修复zotero卡死问题"
 date: 2025-10-03
 tags:
   - zotero
   - debug
 publish: yes
 ---
-# 修复zotero卡死问题
-
 问题描述
 - zotero+其他应用，正常使用
 - zotero+远程桌面+其他应用，zotero 频繁卡死

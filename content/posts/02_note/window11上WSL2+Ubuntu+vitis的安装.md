@@ -1,4 +1,5 @@
 ---
+title: "window11上WSL2+Ubuntu+vitis的安装"
 date: 2025-09-08
 tags:
   - wsl
@@ -6,8 +7,6 @@ tags:
   - xilinx
 publish: yes
 ---
-# window11上WSL2+Ubuntu+vitis的安装
-
 关键词：window11+WSL2+ubuntu+vitis
 
 ## 1. install WSL

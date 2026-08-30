@@ -9,8 +9,6 @@ ShowReadingTime: false
 ShowToc: false
 ---
 
-# About
-
 你好，我是 Tariya321。
 
 这里是我的个人知识与实践记录，主要整理芯片与硬件设计、EDA 工具、AI 加速器、Linux/macOS 使用经验，以及一些日常思考。

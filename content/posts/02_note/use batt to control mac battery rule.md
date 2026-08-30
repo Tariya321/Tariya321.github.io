@@ -1,4 +1,5 @@
 ---
+title: "use batt to control mac battery rule"
 date: 2025-06-09_23:18
 tags:
   - macbook
@@ -6,8 +7,6 @@ tags:
   - plugin
 publish: yes
 ---
-# use batt to control mac battery rule
-
 和iphone一样，控制电池的最大充电容量，从而延长电池寿命
 
 download and open it.

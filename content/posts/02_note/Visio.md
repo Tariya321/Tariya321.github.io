@@ -1,12 +1,11 @@
 ---
+title: "Visio"
 tags:
   - visio
   - office
   - 指南
 publish: yes
 ---
-# Visio
-
 ## 1. 快捷键
 
 | Keybinding         | Action    |
