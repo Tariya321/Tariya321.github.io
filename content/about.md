@@ -1,6 +1,5 @@
 ---
 title: About
-date: 2026-08-31
 tags:
   - about
   - personal
@@ -23,4 +22,3 @@ ShowToc: false
 本站使用 Obsidian 管理内容，借助 Hugo 生成静态页面，并通过 GitHub Pages 发布。文章和图片会由自动化脚本统一处理后推送到网站仓库。
 
 如果你对某篇内容有疑问或建议，可以在 [GitHub](https://github.com/Tariya321) 上与我交流。
-
