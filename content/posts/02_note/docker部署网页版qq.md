@@ -37,7 +37,7 @@ services:
     shm_size: "${SHM_SIZE:-1gb}"
 ```
 
-为了可以用上dxp4800硬件配置中的N100自带的集显，可以在environment加入
+为了可以用上[dxp4800硬件配置](/posts/04_Life/dxp4800%E7%A1%AC%E4%BB%B6%E9%85%8D%E7%BD%AE/)中的N100自带的集显，可以在environment加入
 ```
 - PIXELFLUX_WAYLAND=true
 ```
