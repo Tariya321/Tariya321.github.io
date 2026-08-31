@@ -26,9 +26,9 @@
     "content/posts/04_Life/健康/来喝茶.md",
     "content/posts/04_Life/兴趣/关于音乐.md",
     "content/posts/20_Reserch/LLM推理/FlashAttention.md",
+    "content/posts/20_Reserch/LLM推理/coralnpu.md",
     "content/posts/20_Reserch/LLM推理/神经网络.md",
     "content/posts/99_archive/B.S/单片机和微机系统/MCS-51单片机笔记.md",
-    "content/posts/coralnpu.md",
     "static/attachment/2024-08-03-1.png",
     "static/attachment/2024-08-03.png",
     "static/attachment/2025-08-27.png",
@@ -125,9 +125,9 @@
     "content/posts/04_Life/健康/来喝茶.md",
     "content/posts/04_Life/兴趣/关于音乐.md",
     "content/posts/20_Reserch/LLM推理/FlashAttention.md",
+    "content/posts/20_Reserch/LLM推理/coralnpu.md",
     "content/posts/20_Reserch/LLM推理/神经网络.md",
-    "content/posts/99_archive/B.S/单片机和微机系统/MCS-51单片机笔记.md",
-    "content/posts/coralnpu.md"
+    "content/posts/99_archive/B.S/单片机和微机系统/MCS-51单片机笔记.md"
   ],
   "assets": [
     "static/attachment/2024-08-03-1.png",
