@@ -1,5 +1,5 @@
 ---
-title: "1 Hajimiri"
+title: "Hajimiri"
 tags:
   - Hajimiri
   - Analog
