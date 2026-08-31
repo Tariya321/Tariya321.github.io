@@ -5,7 +5,7 @@ tags:
   - EDA
 publish: yes
 ---
-ee216-可重构计算的第一个 HW，记录一下安装 VTR 工具的过程
+[ee216-可重构计算](/posts/03_M.S/ee216-%E5%8F%AF%E9%87%8D%E6%9E%84%E8%AE%A1%E7%AE%97/)的第一个 HW，记录一下安装 VTR 工具的过程
 
 ## 1. install and config
 下载 VTR资源
@@ -40,7 +40,7 @@ then use cmd:
 make
 ```
 while adding `-j <n>` option can enable the muilt-thread compilation
-{{< figure src="/attachment/VTR%E5%AE%89%E8%A3%85%E5%AE%9E%E5%BD%95-1.png" alt="VTR安装实录-1" width="600" >}}
+![VTR安装实录-6](/attachment/VTR%E5%AE%89%E8%A3%85%E5%AE%9E%E5%BD%95-6.png)
 
 ## 2. running VTR flow
 ```
@@ -66,7 +66,7 @@ $VTR_ROOT/vtr_flow/scripts/run_vtr_flow.py \
     --route_chan_width 100
 ```
 result
-{{< figure src="/attachment/VTR%E5%AE%89%E8%A3%85%E5%AE%9E%E5%BD%95.png" alt="VTR安装实录" width="600" >}}
+![VTR安装实录-5](/attachment/VTR%E5%AE%89%E8%A3%85%E5%AE%9E%E5%BD%95-5.png)
 
 ## 3. manually run
 firstly
@@ -84,7 +84,7 @@ $VTR_ROOT/vpr/vpr \
     --route_chan_width 100
 ```
 result
-{{< figure src="/attachment/VTR%E5%AE%89%E8%A3%85%E5%AE%9E%E5%BD%95-2.png" alt="VTR安装实录-2" width="600" >}}
+![VTR安装实录-7](/attachment/VTR%E5%AE%89%E8%A3%85%E5%AE%9E%E5%BD%95-7.png)
 
 run visualized implementation
 ```
@@ -95,5 +95,6 @@ $VTR_ROOT/vpr/vpr \
     --analysis --disp on
 ```
 result
-{{< figure src="/attachment/VTR%E5%AE%89%E8%A3%85%E5%AE%9E%E5%BD%95-3.png" alt="VTR安装实录-3" width="580" >}}
+![VTR安装实录-4](/attachment/VTR%E5%AE%89%E8%A3%85%E5%AE%9E%E5%BD%95-4.png)
+
 
