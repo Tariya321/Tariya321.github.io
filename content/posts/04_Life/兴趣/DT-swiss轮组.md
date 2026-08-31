@@ -12,6 +12,8 @@ publish: yes
 >
 > 参考：[DT Swiss 公路车轮组](https://www.dtswiss.com/zh-cn/wheels/wheels-road) · [2026-08-31 人民币市场汇价](https://www.news.cn/20260831/b95d5129f054459c9196a04bea60c01f/c.html)
 
+总部位于瑞士比尔
+
 ## 1. 系列定位
 
 | 系列 | 定位 | 典型用途 | 特征 | 一般市场价格（整组） |
@@ -33,3 +35,10 @@ publish: yes
 
 > [!tip] 价格判断
 > 同一等级中，碳纤维轮圈、高框、碟刹、WTS 套装和特殊版本通常更贵；铝合金轮圈、低框、圈刹、旧款或促销库存通常更便宜。比较价格时要先确认轮圈材质、框高、刹车规格和塔基版本。
+
+## 3. ARC代际差异
+
+三代 dt 在 dtswiss logo 的对面是一个大 A，二代是一个带个小红色方块的贴纸
+{{< figure src="/attachment/DT-swiss%E8%BD%AE%E7%BB%84.png" alt="DT-swiss轮组" width="600" >}}
+
+

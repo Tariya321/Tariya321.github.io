@@ -227,6 +227,11 @@ flowchart LR
 - zvt 矩阵计算单元，含有 PE 和 systolic array
 
 
+### 1.6. LSU
+
+load store unit: handles memory operations issued by the core.
+{{< figure src="/attachment/coralnpu.png" alt="coralnpu" width="561" >}}
+
 
 ## 2. 运行实例
 
