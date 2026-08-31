@@ -17,7 +17,7 @@ Verilog Compiler Simulator，用来仿真的
 
 把要编译的文件的路径保存在在`.f`文件里边，编译的时候用`-f`参数调出来编译
 
-VCS与Verdi联调Verdi
+VCS与Verdi联调[Verdi](/posts/03_M.S/%E8%AE%A4%E7%9F%A5/EDA%E5%B7%A5%E5%85%B7/Verdi/)
 [VCS与Verdi工具初体验 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/274783452)
 
 ### 0.1. VCS指令
