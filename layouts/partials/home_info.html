@@ -1,0 +1,21 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <div class="home-info-identity">
+        {{- with site.Params.avatar }}
+        <img class="home-avatar" src="{{ . | safeURL }}" alt="{{ site.Params.author | default site.Title }}" width="76" height="76">
+        {{- end }}
+        <div>
+            {{- with .Kicker }}<p class="home-kicker">{{ . }}</p>{{- end }}
+            <header class="entry-header">
+                <h1>{{ .Title | markdownify }}</h1>
+            </header>
+        </div>
+    </div>
+    <div class="entry-content">
+        {{ .Content | markdownify }}
+    </div>
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" (dict "align" .AlignSocialIconsTo) }}
+    </footer>
+</article>
+{{- end }}
