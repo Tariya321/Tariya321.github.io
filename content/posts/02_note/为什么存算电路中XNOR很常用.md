@@ -14,7 +14,7 @@ publish: yes
 
 ## 2. 基础知识
 
-开始之前，先让我们复习一下数字电路基础：XNOR的门逻辑
+开始之前，先让我们复习一下[数字电路基础](/posts/99_archive/B.S/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%9F%BA%E7%A1%80/)：XNOR的门逻辑
 {{< figure src="/attachment/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AD%98%E7%AE%97%E7%94%B5%E8%B7%AFXNOR%E5%BE%88%E5%B8%B8%E7%94%A8.png" alt="为什么存算电路XNOR很常用" width="300" >}}
 好的，可以看出：**两输入相同为1，不同为0**
 ***Y = A ⊙ B***
