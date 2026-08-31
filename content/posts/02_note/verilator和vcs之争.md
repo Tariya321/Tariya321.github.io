@@ -22,7 +22,7 @@ UVM+VCS，是一套商业上成熟的验证平台
 
 
 ---
-Verilator 核心笔记与快速上手指南
+[Verilator 核心笔记与快速上手指南](/posts/02_note/Verilator%20%E6%A0%B8%E5%BF%83%E7%AC%94%E8%AE%B0%E4%B8%8E%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E6%8C%87%E5%8D%97/)
 [VCS使用指南](/posts/03_M.S/%E8%AE%A4%E7%9F%A5/EDA%E5%B7%A5%E5%85%B7/VCS%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/)
 
 
