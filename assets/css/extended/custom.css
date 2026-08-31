@@ -184,6 +184,71 @@ body.dark.list {
   line-height: 1.2;
 }
 
+.post-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+}
+
+.post-layout-with-toc {
+  grid-template-columns: minmax(0, 1fr) 238px;
+  gap: 36px;
+}
+
+.post-main-column {
+  min-width: 0;
+}
+
+.post-toc-sidebar {
+  position: sticky;
+  top: 84px;
+  min-width: 0;
+  max-height: calc(100vh - 108px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.post-toc-sidebar .toc {
+  margin: 0;
+  padding: 16px 18px;
+  background: var(--entry);
+}
+
+.toc-sidebar-title {
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.toc-sidebar-inner {
+  padding-top: 12px;
+}
+
+.toc-sidebar-inner #TableOfContents {
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.toc-sidebar-inner #TableOfContents ul {
+  margin: 0;
+  padding-inline-start: 18px;
+}
+
+.toc-sidebar-inner #TableOfContents li {
+  margin: 6px 0;
+}
+
+.toc-sidebar-inner #TableOfContents a {
+  color: var(--secondary);
+  box-shadow: none;
+}
+
+.toc-sidebar-inner #TableOfContents a:hover {
+  color: var(--accent);
+}
+
 .breadcrumbs a,
 .post-content h3 {
   color: var(--accent);
@@ -279,5 +344,23 @@ body.dark.list {
 
   .post-title {
     font-size: 34px;
+  }
+
+  .post-layout-with-toc {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .post-toc-sidebar {
+    position: static;
+    order: -1;
+    width: 100%;
+    max-height: 50vh;
+    margin-bottom: 28px;
+  }
+
+  .post-toc-sidebar .toc {
+    margin: 0;
   }
 }
