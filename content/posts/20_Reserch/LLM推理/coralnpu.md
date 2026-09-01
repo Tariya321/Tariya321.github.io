@@ -69,7 +69,7 @@ LiteRT 的路径
 
 
 
-### 1.2. hardware design hierarchy demenstration
+### 1.2. hw design hierarchy
 
 https://deepwiki.com/google-coral/coralnpu/7-fpga-implementation
 ![ai-accelerator for inference-12](/attachment/ai-accelerator%20for%20inference-12.png)
@@ -137,7 +137,7 @@ graph TD
 ```
 
 
-### 1.3. sw2hw co-work design flow
+### 1.3. co-work flow
 ```mermaid
 flowchart TD
   %% ==================== 样式定义 ====================
