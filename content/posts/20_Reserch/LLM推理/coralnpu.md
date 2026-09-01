@@ -6,8 +6,9 @@ tags:
   - google
 publish: yes
 ---
-- coral-npu，google研究团队开源的软硬件方案
-- CoralNPU Nexus FPGA emulation boards (e.g., Board 09, Board 10)
+- coral-npu，google/versilicon研究团队开源的软硬件方案
+- 自制的Nexus板卡作为host端，VU13P作为硬件部署板
+	- FTDI芯片作为控制interface
 - 运行于edge端，例如手机、手表等电子设备中
 {{< figure src="/attachment/ai-accelerator%20for%20inference.png" alt="ai-accelerator for inference" width="346" >}}
 ![345](https://pic4.zhimg.com/v2-9e3e1552315645b7e5785f026512369d_r.jpg)
@@ -264,10 +265,31 @@ vle32.v v8, (x1), v0.t
 ```
 Dispatch 发出向量 load；LSU 取标量基址 `x1`，同时让 RvvCore 给 mask `v0`；slot 为有效元素创建地址与待完成项，按可合并程度发出内存事务；读回的数据按向量元素位置组装后，经 `lsu2rvv` 写入 `v8`
 
+### 2.2. AXI subsystem
 
-## 3. 运行实例
+当数据不在DTCM，由LSU通过AXI mast经过SoC互联访问DDR
 
-### 3.1. quick start
+
+## 3. gemma kernels
+
+|ELF target|作用|
+|---|---|
+|rvv_matmul|FP32 Q/K/V/FFN projection；支持 GeMV 与 2D GEMM|
+|rvv_bf16_matmul|BF16 projection；支持 GeMV 与 2D GEMM|
+|rvv_int8_matmul|INT8 × INT8 → INT32 的量化 projection|
+|rvv_rms_norm|FP32 RMSNorm|
+|rvv_bf16_rms_norm|BF16 RMSNorm|
+|rvv_residual_add|FP32 residual / skip connection|
+|rvv_bf16_residual_add|BF16 residual / skip connection|
+|rvv_tanh_gelu_mul|FP32 gated FFN activation|
+|rvv_bf16_tanh_gelu_mul|BF16 gated FFN activation|
+|rvv_flashattention_test|FP32 QK-softmax-V attention|
+|rvv_bf16_flashattention|BF16 QK-softmax-V attention|
+
+
+## 4. 运行实例
+
+### 4.1. quick start
 
 
 - bazel 7.4.1
@@ -293,7 +315,7 @@ run result
 {{< figure src="/attachment/PixPin_2026-05-22_20-22-44.png" alt="PixPin_2026-05-22_20-22-44" width="806" >}}
 
 
-### 3.2. run mobileNet
+### 4.2. run mobileNet
 
 - 由`BUILD`文件控制行为、工具链
 	- 将TFLite 模型调用工具进行编译，产生mobilenet的binary data
@@ -327,6 +349,8 @@ BUILD 文件解析
 refs:
 - 如何使用pytorch
 PyTorch和TensorFlow之对比
+
+### 4.3. run gemma3
 
 
 
