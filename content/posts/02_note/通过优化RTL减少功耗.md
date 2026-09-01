@@ -1,7 +1,8 @@
 ---
 title: "通过优化RTL减少功耗"
 src: WX-数字芯片实验室
-tags: 低功耗
+tags: 
+  - 低功耗
 link: https://mp.weixin.qq.com/s/fAIE1Yy-MvLze8nBRVxV6g
 date: 2024-03-31
 publish: yes
