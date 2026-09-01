@@ -226,16 +226,48 @@ flowchart LR
 - 外积 MAC 使用 8bit×8bit → 32bit 累加，256 MAC/周期
 - zvt 矩阵计算单元，含有 PE 和 systolic array
 
+## 2. 微架构
 
-### 1.6. LSU
+### 2.1. LSU
 
-load store unit: handles memory operations issued by the core.
+load store unit
+- handles memory operations issued by the core.
+- 标量核/RVV 核与所有可访问内存之间的“访存执行器”
+
 {{< figure src="/attachment/coralnpu.png" alt="coralnpu" width="561" >}}
 
+```
+Instruction memory
+       │
+       ▼
+Fetch → Decode → Dispatch
+                    │
+          ┌─────────┴─────────┐
+          ▼                   ▼
+      Compute Unit           LSU
+                              │
+                              ▼
+                         Data Memory
+```
 
-## 2. 运行实例
 
-### 2.1. quick start
+所有处理器/加速器都有“load/store 或搬运”功能；CoralNPU 把它设计成通用指令驱动 LSU，昇腾和 TPU 更常把它做成面向张量分块数据流的 DMA/MTE 子系统
+
+example
+```
+lw x5, 8(x1)
+```
+Dispatch 把 `LW` 发给 LSU；LSU 从 regfile 得到 `x1`，计算 `x1+8`；根据地址范围选 dbus 或 ebus（或 ibus）；拿到读数据后取所需字节、做符号扩展，写回 `x5`
+
+```
+vle32.v v8, (x1), v0.t
+```
+Dispatch 发出向量 load；LSU 取标量基址 `x1`，同时让 RvvCore 给 mask `v0`；slot 为有效元素创建地址与待完成项，按可合并程度发出内存事务；读回的数据按向量元素位置组装后，经 `lsu2rvv` 写入 `v8`
+
+
+## 3. 运行实例
+
+### 3.1. quick start
 
 
 - bazel 7.4.1
@@ -261,9 +293,7 @@ run result
 {{< figure src="/attachment/PixPin_2026-05-22_20-22-44.png" alt="PixPin_2026-05-22_20-22-44" width="806" >}}
 
 
-
-
-### 2.2. run mobileNet
+### 3.2. run mobileNet
 
 - 由`BUILD`文件控制行为、工具链
 	- 将TFLite 模型调用工具进行编译，产生mobilenet的binary data
