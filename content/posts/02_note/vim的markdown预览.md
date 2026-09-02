@@ -4,6 +4,7 @@ tags:
   - vim
   - plugin
 publish: yes
+date: 2024-08-03
 ---
 ## 1. Linux
 
