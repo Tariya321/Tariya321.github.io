@@ -1,0 +1,25 @@
+{{- if .Param "math" }}
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true
+    },
+    loader: {load: ['ui/safe']},
+    options: {
+      ignoreHtmlClass: '.*',
+      processHtmlClass: 'post-content'
+    }
+  };
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+<style>
+  .post-content mjx-container[display="true"] {
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-width: 100%;
+    padding: 0.25em 0;
+  }
+</style>
+{{- end }}

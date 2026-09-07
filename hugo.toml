@@ -48,6 +48,7 @@ enableRobotsTXT = true
   home = ["HTML", "RSS", "JSON"]
 
 [params]
+  math = true
   env = "production"
   title = "Tariya321"
   description = "芯片、硬件与效率工具的实践记录"
@@ -84,3 +85,9 @@ enableRobotsTXT = true
     name = "rss"
     url = "/index.xml"
     title = "RSS"
+
+[markup.goldmark.extensions.passthrough]
+  enable = true
+  [markup.goldmark.extensions.passthrough.delimiters]
+    block = [['\[', '\]'], ['$$', '$$']]
+    inline = [['\(', '\)'], ['$', '$']]
