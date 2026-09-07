@@ -136,7 +136,7 @@ https://tex.stackexchange.com/questions/198800/how-to-number-and-cross-reference
 § 个别情况，无法只通过该命令得到脚注，见【The Short Introduction of LaTex2e】：P23
 □ 例如在section标题中
 ○ `\marginpar{}` 命令用于生成边注
-§ 其完全形式为 `\marginpar\[\<left-margin>]{\<right-margin>}` 
+§ 其完全形式为 `\marginpar\[\&lt;left-margin>]{\&lt;right-margin>}` 
 § 由于边注较窄，最好设置较小的字号. Be like `\footnotesize`
 ### 3.6. 特殊环境
 ---
@@ -155,7 +155,7 @@ https://tex.stackexchange.com/questions/198800/how-to-number-and-cross-reference
 § `quotation`用于若干段文字，增加缩进
 ○ 代码环境
 § `verbatim`环境以等宽字体排版代码
-§ `\verb|<>|` 可排版简短的代码或者关键字
+§ `\verb|&lt;>|` 可排版简短的代码或者关键字
 >在beamer中使用需要在frame后加上`[fragile]`选项
 ### 3.7. 图片
 ○ 导入`graphicx`宏包支持
@@ -179,20 +179,20 @@ https://tex.stackexchange.com/questions/198800/how-to-number-and-cross-reference
 - 水平盒子
 	- \\mbox{}
 		- 生成一个基本的水平盒子，内容只有一行，此时断行命令失效
-	- `\makebox\[\<width>][\<align>]{}`
+	- `\makebox\[\&lt;width>][\&lt;align>]{}`
 		- 对齐方式align可选居中c（默认值）、左对齐l、右对齐r和分散对齐s
 		- width的单位为em
 - 带框的水平盒子
 	- \\fbox{}
-	- `\framebox[\<width>][\<align>]{}`
+	- `\framebox[\&lt;width>][\&lt;align>]{}`
 		- 可通过\setlength命令调节边框的宽度\fboxrule和内边距\fboxsep（见P45）
 - 垂直盒子（见P46）
 ### 3.10. 浮动体
 ---
 - figure环境: 习惯上放图片。
-§ `\begin{figure}[\<placement>]`，参量placement，用以表示浮动体允许排版的位置在使用molticol分栏时，使用宏包，加参数H；否则，可用h
+§ `\begin{figure}[\&lt;placement>]`，参量placement，用以表示浮动体允许排版的位置在使用molticol分栏时，使用宏包，加参数H；否则，可用h
 - able环境: 习惯上放表格
-§ `\begin{figure}[\<placement>]`
+§ `\begin{figure}[\&lt;placement>]`
 - 标题
 § \caption{}：自动编号
 § \caption*{}：不带编号
@@ -266,30 +266,30 @@ https://tex.stackexchange.com/questions/198800/how-to-number-and-cross-reference
 ○ 长度和长度单位
 § 见P78页
 ○ 行距
-§ `\linespread{<factor>}`
+§ `\linespread{&lt;factor>}`
 □ factor缺省时为1.2倍字体大小
 □ 添加在导言区中，则控制全局格式
 □ 添加在局部，则需用 花括号{} 包括，并且用\selectfont命令使该命令生效
 ® 注意末尾要添加 \par命令. 这是因为行距的改变要直到文字分段才会生效
 ○ 段落格式
 § 设置缩进间距
-□ `\setlength{\leftskip}{<length>}`
-□ `\setlength{\rightskip}{<length>}`
-□ `\setlength{\parindent}{<length>}`
+□ `\setlength{\leftskip}{&lt;length>}`
+□ `\setlength{\rightskip}{&lt;length>}`
+□ `\setlength{\parindent}{&lt;length>}`
 § 缩进控制的命令（在段落开头使用）
 □ \indent
 □ \noindent
 ○ 水平间距
 § \hspace{} : 加入额外水平间距
-§ `\stretch{<n>}`：生成一个特殊弹性长度，参数`<n>`为权重
+§ `\stretch{&lt;n>}`：生成一个特殊弹性长度，参数`&lt;n>`为权重
 □ 需要嵌套在`\hspace{}`命令之内
 ○ 垂直间距
 § \vspace{} ：增加该行垂直间距，不自动分段
 § \\[] : 增加该行垂直间距，自动分段
 • 页面和分栏（见P80~83）
 • 页眉页脚（见P83~85）
-○ `\pagestyle{<page-style>}`：修改全局页眉页脚样式
-○ `\thispagestyle{<page-style>}`：修改当前页的页眉页脚格式
+○ `\pagestyle{&lt;page-style>}`：修改全局页眉页脚样式
+○ `\thispagestyle{&lt;page-style>}`：修改当前页的页眉页脚格式
 § Page-style参数为样式的名称，latex共预定了四类样式（详见文档）
 
 ## 6. 特色工具和功能
@@ -302,7 +302,7 @@ https://tex.stackexchange.com/questions/198800/how-to-number-and-cross-reference
 ![Screenshot_20230312_132903_tv.danmaku.bili](/attachment/Screenshot_20230312_132903_tv.danmaku.bili.jpg)
 
 ### 6.2. 参考文献和BIBTEX工具
-○ 方案A：使用LaTex自带的参考文献命令：`\cite[<page>]{<citation>}`
+○ 方案A：使用LaTex自带的参考文献命令：`\cite[&lt;page>]{&lt;citation>}`
 § citation为参考文献的标签
 § 参考文献由thebibliography环境包裹，示例如下
 ```tex
@@ -315,9 +315,9 @@ https://tex.stackexchange.com/questions/198800/how-to-number-and-cross-reference
 ○ 方案B：使用BIBTEX排版参考文献
 i. 准备好bib格式的文献数据文件（与代码处于同一目录）
 ii. 在源代码中添加命令
-1) `\bibliographystyle{<bst-name>}`命令设定文献格式（不带后缀bst）
+1) `\bibliographystyle{&lt;bst-name>}`命令设定文献格式（不带后缀bst）
 a) 一般放在导言区\maketitle之后
-2) 使用`\bibliography{<bib-name>}`命令添加文献（不带后缀bib）
+2) 使用`\bibliography{&lt;bib-name>}`命令添加文献（不带后缀bib）
 a) 一般放在`\appendix`之后
 ### 6.3. 索引和makeindex工具
 ○ 颜色
@@ -327,12 +327,12 @@ a) 一般放在`\appendix`之后
 ○ hyperref宏包
 § 为减少冲突，一般将该宏包放在最后调用
 ○ 超链接
-§ `\url{<url>}`：为URL加上了超链接
-§ `\nolinkurl{<url>}`：只有URL，无超链接
-§ `\herf{<url>}{<text>}`：将一段文字作为超链接
+§ `\url{&lt;url>}`：为URL加上了超链接
+§ `\nolinkurl{&lt;url>}`：只有URL，无超链接
+§ `\herf{&lt;url>}{&lt;text>}`：将一段文字作为超链接
 ○ PDF书签
-§ `\pdfbookmark{<bookmark>}{<anchor>}`
+§ `\pdfbookmark{&lt;bookmark>}{&lt;anchor>}`
 □ bookmark为书签名称，anchor为书签使用的标签
-□ 注意：宏包已经提前处理了部分命令，可以直接使用，但仍然存在未被处理好的命令或者公式，此时使用`\texorpadfstring{<LATEX code>}{<PDF bookmark text>}`
+□ 注意：宏包已经提前处理了部分命令，可以直接使用，但仍然存在未被处理好的命令或者公式，此时使用`\texorpadfstring{&lt;LATEX code>}{&lt;PDF bookmark text>}`
 ○ PDF文档属性
 

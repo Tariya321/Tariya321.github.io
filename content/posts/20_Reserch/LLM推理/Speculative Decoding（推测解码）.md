@@ -25,13 +25,13 @@ publish: yes
 大语言模型（LLM）的生成过程具有严格的自回归依赖：
 
 $$
-x_t \sim p_T(x_t \mid x_{<t})
+x_t \sim p_T(x_t \mid x_{&lt;t})
 $$
 
 其中：
 
 - $x_t$：第 $t$ 个 token；
-- $x_{<t}$：此前已经生成的 token；
+- $x_{&lt;t}$：此前已经生成的 token；
 - $p_T$：Target Model 的条件概率分布。
 
 生成第 $t$ 个 token 之前，必须先知道前面所有 token。因此标准 decode 通常是：
@@ -231,13 +231,13 @@ $$
 Target Model 需要评估：
 
 $$
-p_T(y_i \mid c,y_{<i}), \quad i=1,\dots,K
+p_T(y_i \mid c,y_{&lt;i}), \quad i=1,\dots,K
 $$
 
 其中：
 
 $$
-y_{<i}=(y_1,\dots,y_{i-1})
+y_{&lt;i}=(y_1,\dots,y_{i-1})
 $$
 
 把上下文和候选序列一起送入 Target Model 后，它可以同时得到多个位置的 logits。对 $K$ 个 draft token，Target 需要的分布是：
@@ -251,7 +251,7 @@ $$
 这里：
 
 $$
-q_i(\cdot)=p_T(\cdot\mid c,y_{<i})
+q_i(\cdot)=p_T(\cdot\mid c,y_{&lt;i})
 $$
 
 例如：
@@ -582,20 +582,20 @@ KV 压力高                   → 限制 K
 设 Draft Model 按照以下分布生成：
 
 $$
-y_i\sim q(\cdot\mid c,y_{<i})
+y_i\sim q(\cdot\mid c,y_{&lt;i})
 $$
 
 假设第 $j$ 个 token 首次被 Target Model 拒绝。Draft 后面的 token 是在这个 draft 前缀上生成的：
 
 $$
 y_{j+1}
-\sim q(\cdot\mid c,y_{<j},y_j)
+\sim q(\cdot\mid c,y_{&lt;j},y_j)
 $$
 
 但是，Target Model 需要把第 $j$ 个位置修正为某个 token $z_j$，所以正确的下一个条件分布应为：
 
 $$
-p_T(\cdot\mid c,y_{<j},z_j)
+p_T(\cdot\mid c,y_{&lt;j},z_j)
 $$
 
 通常：
@@ -607,9 +607,9 @@ $$
 因此：
 
 $$
-q(\cdot\mid c,y_{<j},y_j)
+q(\cdot\mid c,y_{&lt;j},y_j)
 \ne
-p_T(\cdot\mid c,y_{<j},z_j)
+p_T(\cdot\mid c,y_{&lt;j},z_j)
 $$
 
 后缀 token 已经属于另一条因果路径。
@@ -652,7 +652,7 @@ $$
 1. 接受 $y_1,\dots,y_{j-1}$；
 2. 由 Target Model 生成或采样修正 token $z_j$；
 3. 丢弃 $y_j$ 以及整个后缀 $y_{j+1},\dots,y_K$；
-4. 以 $c,y_{<j},z_j$ 作为新上下文继续生成。
+4. 以 $c,y_{&lt;j},z_j$ 作为新上下文继续生成。
 
 这正是“接受前缀、修正分叉点、丢弃后缀”的原因。
 
@@ -660,8 +660,8 @@ $$
 
 下面描述保持 Target Model 输出分布的经典形式。记：
 
-- $q_i(\cdot)=q(\cdot\mid c,y_{<i})$：Draft 分布；
-- $p_i(\cdot)=p_T(\cdot\mid c,y_{<i})$：Target 分布；
+- $q_i(\cdot)=q(\cdot\mid c,y_{&lt;i})$：Draft 分布；
+- $p_i(\cdot)=p_T(\cdot\mid c,y_{&lt;i})$：Target 分布；
 - $y_i$：Draft 采样出的第 $i$ 个 token。
 
 ### 9.1. 接受概率
@@ -947,7 +947,7 @@ $$
 令小模型分布为 $p_S$，定义置信度：
 
 $$
-C_S(t)=\max_x p_S(x\mid x_{<t})
+C_S(t)=\max_x p_S(x\mid x_{&lt;t})
 $$
 
 一种直接规则是：
@@ -956,7 +956,7 @@ $$
 x_t=
 \begin{cases}
 \arg\max p_S(x_t), & C_S(t)\ge\tau\\
-\arg\max p_T(x_t), & C_S(t)<\tau
+\arg\max p_T(x_t), & C_S(t)&lt;\tau
 \end{cases}
 $$
 
@@ -1395,7 +1395,7 @@ Speculative decoding 的核心链路是：
 从 LLM inference / accelerator 的角度看，最有价值的抽象不是简单的：
 
 $$
-p<\tau\Rightarrow\text{调用大模型}
+p&lt;\tau\Rightarrow\text{调用大模型}
 $$
 
 而是：
