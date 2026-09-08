@@ -11,8 +11,7 @@ aliases:
   - 推测解码
 publish: yes
 ---
-
-> [!abstract] 一句话
+> [!abstract] 摘要
 > 让便宜的 **Draft Model** 先连续猜测一小段 token，再让昂贵的 **Target Model** 一次性验证；正确的 draft token 直接接受，首次拒绝后丢弃其后的 draft 后缀并从正确上下文继续生成。
 
 > [!tip] 核心目标
