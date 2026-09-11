@@ -57,6 +57,9 @@ default=hongzhilian
 
 ### 2.1. usb透传
 
+https://learn.microsoft.com/en-us/windows/wsl/connect-usb
+
+
 
 window安装`usbipd`[透传工具](https://github.com/dorssel/usbipd-win)
 ```

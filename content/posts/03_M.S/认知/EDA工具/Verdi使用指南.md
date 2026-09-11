@@ -1,5 +1,5 @@
 ---
-title: "Verdi"
+title: "Verdi使用指南"
 date: 2025-06-04_12:55
 tags:
   - 仿真
@@ -7,17 +7,11 @@ tags:
   - synopsys
 publish: yes
 ---
-
-功能列表
-1. 与VCS联调[VCS使用指南](/posts/03_M.S/%E8%AE%A4%E7%9F%A5/EDA%E5%B7%A5%E5%85%B7/VCS%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/)
-2. 查看电路图
-
-
-
+2025-06-04_12:55
 
 ## 1. 加载波形
 ---
-VCS这边要生成一个`.fsdb` 波形文件，Verdi是用来显示和debug的
+[VCS](/posts/03_M.S/%E8%AE%A4%E7%9F%A5/EDA%E5%B7%A5%E5%85%B7/VCS%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/) dump`.fsdb` 波形文件，Verdi用于波形显示和debug
 
 拉出来waveform
 
