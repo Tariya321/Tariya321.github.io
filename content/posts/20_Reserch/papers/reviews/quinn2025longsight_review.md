@@ -6,6 +6,8 @@ tags:
   - paper-review
 publish: true
 ---
+{{< figure src="/attachment/quinn2025longsight_review.png" alt="quinn2025longsight_review" width="599" >}}
+
 ## 1. 文献、版本与范围
 
 - Derrick Quinn 等，*LongSight: Compute-Enabled Memory to Accelerate Large-Context LLMs via Sparse Attention*，MICRO 2025，34–48。
