@@ -6,9 +6,6 @@ tags:
   - paper-review
 publish: true
 ---
-> [!info] 索引
-> 返回 论文 PDF 与独立 Review。
-
 ## 评审范围
 
 Nayak 等，*FuseMax: Leveraging Extended Einsums to Optimize Attention Accelerator Design*，MICRO 2024，[DOI](https://doi.org/10.1109/MICRO61859.2024.00107)。阅读版本为 [arXiv:2406.10491v3](https://arxiv.org/abs/2406.10491v3)，2024-10-31，16 页。页码指本地 PDF。

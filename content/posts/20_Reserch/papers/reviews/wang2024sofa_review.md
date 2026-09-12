@@ -6,9 +6,6 @@ tags:
   - paper-review
 publish: true
 ---
-> [!info] 索引
-> 返回 论文 PDF 与独立 Review。
-
 ## 评审范围
 
 - 文献：Wang 等，*SOFA: A Compute-Memory Optimized Sparsity Accelerator via Cross-Stage Coordinated Tiling*，MICRO 2024。[DOI](https://doi.org/10.1109/MICRO61859.2024.00093)。

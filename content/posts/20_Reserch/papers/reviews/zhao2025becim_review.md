@@ -6,9 +6,6 @@ tags:
   - paper-review
 publish: true
 ---
-> [!info] 索引
-> 返回 论文 PDF 与独立 Review。
-
 ## 1. 文献信息与评审范围
 
 - **论文**：Shixin Zhao 等，*Be CIM or Be Memory: A Dual-mode-aware DNN Compiler for CIM Accelerators*，ASPLOS 2025，Vol. 2，pp. 63–78。

@@ -6,9 +6,6 @@ tags:
   - paper-review
 publish: true
 ---
-> [!info] 索引
-> 返回 论文 PDF 与独立 Review。
-
 ## 1. 文献、版本与范围
 
 - Sai Qian Zhang、Thierry Tambe、Nestor Cuevas、Gu-Yeon Wei、David Brooks，*CAMEL: Co-Designing AI Models and eDRAMs for Efficient On-Device Learning*。公开版本为 arXiv:2305.03148v3（2023-12-22），15 页；正式 DOI：[10.1109/HPCA57654.2024.00071](https://doi.org/10.1109/HPCA57654.2024.00071)。
@@ -59,7 +56,7 @@ CAMEL 的核心是 Duplex DNN（DuDNN）：冻结的预训练 backbone 与可训
 
 ## 5. 五维判定
 
-| 维度 | 标准来源 | 分类 | 证据、理由、不确定性与影响 |
+| 维度 | ���准来源 | 分类 | 证据、理由、不确定性与影响 |
 |---|---|---|---|
 | Originality | peer_reviewer：贡献相对相关文献、文章类型可辩护 | MEETS | p.2、p.5–p.9 将 reversible branch、寿命调度与 eDRAM/SRAM accelerator 联合起来，增量贡献可辨识。未穷尽全部后续文献，故不把“first”升级为绝对认证；对决定影响非阻断。 |
 | Methodological Rigor | peer_reviewer：设计、执行、分析能否支持推断 | PARTLY_MEETS | p.6–p.7 的寿命模型和 p.10–p.12 的硬件模型有明确参数，但 M1 的目标阈值、M2 的工作量/时延闭合和 M4 的对照归因仍影响可复现性与外部有效性。 |

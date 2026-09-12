@@ -6,9 +6,6 @@ tags:
   - paper-review
 publish: true
 ---
-> [!info] 索引
-> 返回 论文 PDF 与独立 Review。
-
 ## 文献、版本与范围
 
 - Derrick Quinn 等，*LongSight: Compute-Enabled Memory to Accelerate Large-Context LLMs via Sparse Attention*，MICRO 2025，34–48。

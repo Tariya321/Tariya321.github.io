@@ -6,9 +6,6 @@ tags:
   - paper-review
 publish: true
 ---
-> [!info] 索引
-> 返回 论文 PDF 与独立 Review。
-
 ## 文献与评审范围
 
 Jingwei Cai 等，*Gemini: Mapping and Architecture Co-exploration for Large-scale DNN Chiplet Accelerators*，HPCA 2024，156–171，DOI：[10.1109/HPCA57654.2024.00022](https://doi.org/10.1109/HPCA57654.2024.00022)。[作者公开PDF](https://people.iiis.tsinghua.edu.cn/~gaomy/pubs/gemini.hpca24.pdf)共16页，首页含正式DOI及页码；[本地文件](/attachment/vault/20_Reserch/papers/attachments/cai2024gemini.pdf)。未与出版平台逐字比对。

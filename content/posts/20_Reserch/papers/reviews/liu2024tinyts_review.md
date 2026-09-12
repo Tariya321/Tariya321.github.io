@@ -6,9 +6,6 @@ tags:
   - paper-review
 publish: true
 ---
-> [!info] 索引
-> 返回 论文 PDF 与独立 Review。
-
 ## 状态与证据边界
 
 **这不是完整论文 review。TinyTS PDF 尚未下载成功，全文方法、公式、图表和实验没有完成审阅。** 此文件用于单独保留可核实的摘要信息及后续评审要点，不能算作全文评审完成。

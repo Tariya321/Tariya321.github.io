@@ -6,9 +6,6 @@ tags:
   - paper-review
 publish: true
 ---
-> [!info] 索引
-> 返回 论文 PDF 与独立 Review。
-
 ## 版本、依据与范围
 
 Hamid Farzaneh 等，*C4CAM: A Compiler for CAM-based In-memory Accelerators*。用户指定出版物为 ASPLOS 2024 Vol.3，164–177，DOI：[10.1145/3620666.3651386](https://doi.org/10.1145/3620666.3651386)。**实际下载和阅读的是 [arXiv:2309.06418v1](https://arxiv.org/pdf/2309.06418v1)，2023-09-12，10页，不能冒充14页出版终版。** 作者终版下载入口连接失败；以下意见仅针对早期稿，不能推断终版仍有相同问题。

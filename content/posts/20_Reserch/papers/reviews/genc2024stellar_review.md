@@ -6,9 +6,6 @@ tags:
   - paper-review
 publish: true
 ---
-> [!info] 索引
-> 返回 论文 PDF 与独立 Review。
-
 ## 评审范围
 
 Genc 等，*Stellar: An Automated Design Framework for Dense and Sparse Spatial Accelerators*，MICRO 2024，[DOI](https://doi.org/10.1109/MICRO61859.2024.00038)。阅读[作者公开 PDF](https://people.eecs.berkeley.edu/~ysshao/assets/papers/stellar-micro2024.pdf)，14 页；下文页码采用 PDF 页码。
