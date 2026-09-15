@@ -10,7 +10,7 @@ publish: yes
 
 **Verilator** 是一个开源的、学术界和工业界广泛使用的 **SystemVerilog 仿真器**。
 
-与传统的事件驱动（Event-driven）仿真器（如 VCS、ModelSim、Questasim）不同，Verilator 采用的是**周期精确（Cycle-accurate）**的编译型仿真机制。它将 Verilog/SystemVerilog 代码**翻译（Verilate）为 C++ 或 SystemC 模型**，然后再通过 C++ 编译器（如 GCC/Clang）编译成一个可执行文件来运行仿真。
+与传统的事件驱动（Event-driven）仿真器（如 VCS、ModelSim、Questasim）不同，Verilator 采用的是周期精确（Cycle-accurate）的编译型仿真机制。它将 Verilog/SystemVerilog 代码翻译（Verilate）为 C++ 或 SystemC 模型，然后再通过 C++ 编译器（如 GCC/Clang）编译成一个可执行文件来运行仿真。
 
 ### 1.1. Verilator 与传统仿真器的对比
 
@@ -43,18 +43,7 @@ publish: yes
 
 使用 Verilator 进行仿真的标准流程如下：
 
-```
-[ 硬件设计 (.v/.sv) ] + [ C++ 测试平台 (sim_main.cpp) ]
-                       │
-                       ▼ (运行 Verilator 编译)
-         [ 自动生成的 C++ 类 (Vtop.h/cpp) ]
-                       │
-                       ▼ (运行 GCC/Clang 编译)
-            [ 可执行仿真程序 (Vtop) ]
-                       │
-                       ▼ (运行程序)
-         [ 仿真结果 / 波形文件 (.vcd/.fst) ]
-```
+{{< figure src="/attachment/Verilator%20%E6%A0%B8%E5%BF%83%E7%AC%94%E8%AE%B0%E4%B8%8E%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E6%8C%87%E5%8D%97.png" alt="Verilator 核心笔记与快速上手指南" width="449" >}}
 
 ---
 
