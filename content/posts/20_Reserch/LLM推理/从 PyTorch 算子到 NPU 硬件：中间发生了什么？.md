@@ -195,3 +195,4 @@ Operator → Schedule → Kernel → ISA → Hardware
 
 - [NPU的软硬件设计层次](/posts/20_Reserch/LLM%E6%8E%A8%E7%90%86/NPU%E7%9A%84%E8%BD%AF%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B1%82%E6%AC%A1/)：定义从 Graph 到 Circuit / Physical 的完整层次。
 - [NPU 的软硬件设计层次（原文）](https://tariya321.github.io/posts/20_reserch/llm%E6%8E%A8%E7%90%86/npu%E7%9A%84%E8%BD%AF%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B1%82%E6%AC%A1/)
+
