@@ -138,6 +138,7 @@
     "content/posts/99_archive/OneNote/生活/fragment/雷雨天.md",
     "content/posts/99_archive/OneNote/生活/清明南京伴友行.md",
     "content/posts/99_archive/Zotero/notes/CIMFormer.md",
+    "content/posts/深度学习框架简介.md",
     "static/attachment/127110222242344.png",
     "static/attachment/2024-08-03-1.png",
     "static/attachment/2024-08-03.png",
@@ -490,6 +491,7 @@
     "static/attachment/流水线技术示意图.png",
     "static/attachment/消除交越失真的互补输出极.png",
     "static/attachment/深三极管区的线性工作.png",
+    "static/attachment/深度学习框架简介.png",
     "static/attachment/滞回比较器及其电压传输特性.png",
     "static/attachment/激活函数-2.png",
     "static/attachment/激活函数.png",
@@ -677,7 +679,8 @@
     "content/posts/99_archive/OneNote/政治生活/党建学习心得及代办/历史周期律.md",
     "content/posts/99_archive/OneNote/生活/fragment/雷雨天.md",
     "content/posts/99_archive/OneNote/生活/清明南京伴友行.md",
-    "content/posts/99_archive/Zotero/notes/CIMFormer.md"
+    "content/posts/99_archive/Zotero/notes/CIMFormer.md",
+    "content/posts/深度学习框架简介.md"
   ],
   "assets": [
     "static/attachment/127110222242344.png",
@@ -1032,6 +1035,7 @@
     "static/attachment/流水线技术示意图.png",
     "static/attachment/消除交越失真的互补输出极.png",
     "static/attachment/深三极管区的线性工作.png",
+    "static/attachment/深度学习框架简介.png",
     "static/attachment/滞回比较器及其电压传输特性.png",
     "static/attachment/激活函数-2.png",
     "static/attachment/激活函数.png",

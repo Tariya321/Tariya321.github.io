@@ -31,6 +31,6 @@ publish: yes
 
 
 
-## 关联阅读
+## 1. 关联阅读
 
 - [从 PyTorch 算子到 NPU 硬件：中间发生了什么？](/posts/20_Reserch/LLM%E6%8E%A8%E7%90%86/%E4%BB%8E%20PyTorch%20%E7%AE%97%E5%AD%90%E5%88%B0%20NPU%20%E7%A1%AC%E4%BB%B6%EF%BC%9A%E4%B8%AD%E9%97%B4%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88%EF%BC%9F/)：解释 Operator、Schedule、Kernel、ISA 与硬件之间的连接。
