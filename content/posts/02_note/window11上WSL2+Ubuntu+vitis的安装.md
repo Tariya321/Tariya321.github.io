@@ -29,7 +29,7 @@ wsl --set-default-version 2
 ```
 
 
-For more info about WSL command, please read [WSL简介](/posts/01_draft/WSL%E7%AE%80%E4%BB%8B/).
+For more info about WSL command, please read [WSL](/posts/01_draft/WSL/).
 
 ## 2. install Ubuntu
 自定义安装位置的ubuntu安装方式：https://loopguy.com/post/how-to-install-ubuntu-wsl-in-a-custom-location-windows-subsystem-for-linux

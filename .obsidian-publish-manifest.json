@@ -4,7 +4,7 @@
   "files": [
     "content/about.md",
     "content/posts/01_draft/LaTeX/LaTeX shortGuide.md",
-    "content/posts/01_draft/WSL简介.md",
+    "content/posts/01_draft/WSL.md",
     "content/posts/01_draft/build your makefile.md",
     "content/posts/01_draft/mac使用ssh+x11转发打开gui.md",
     "content/posts/01_draft/ob启动速度issue.md",
@@ -546,7 +546,7 @@
   "notes": [
     "content/about.md",
     "content/posts/01_draft/LaTeX/LaTeX shortGuide.md",
-    "content/posts/01_draft/WSL简介.md",
+    "content/posts/01_draft/WSL.md",
     "content/posts/01_draft/build your makefile.md",
     "content/posts/01_draft/mac使用ssh+x11转发打开gui.md",
     "content/posts/01_draft/ob启动速度issue.md",
