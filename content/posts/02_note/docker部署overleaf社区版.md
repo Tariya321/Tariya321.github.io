@@ -41,13 +41,6 @@ sudo systemctl restart docker
 http://localhost/launchpad
 ```
 
-account
-```
-hongzhilian@outlook.com
-tariya@321
-```
-
-
 再进入 login 界面
 ```
 http://localhost/login

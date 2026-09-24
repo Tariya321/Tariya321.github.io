@@ -49,7 +49,7 @@ wsl --unregister Ubuntu-22.04
 systemd=ture
 
 [user]
-default=hongzhilian
+default=user
 ```
 然后 terminate 这个系统，重启即可生效
 

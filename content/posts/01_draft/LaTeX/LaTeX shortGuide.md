@@ -118,7 +118,7 @@ https://tex.stackexchange.com/questions/198800/how-to-number-and-cross-reference
 ○ 示例代码
 ```latex
 \title{attempt}
-\author{Hong Zhilian\thanks{E-mail:hongzhilian@outlook.com}
+\author{Name\thanks{E-mail:name@example.com}
 \and Ted\thanks{Corresponding author}
 \and Louis}
 \date{August 2022}

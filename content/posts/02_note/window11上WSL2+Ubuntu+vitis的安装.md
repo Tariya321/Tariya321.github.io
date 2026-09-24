@@ -29,7 +29,7 @@ wsl --set-default-version 2
 ```
 
 
-For more info about WSL command, please read [WSL](/posts/01_draft/WSL/).
+For more info about WSL command, please read [WSL简介](/posts/01_draft/WSL%E7%AE%80%E4%BB%8B/).
 
 ## 2. install Ubuntu
 自定义安装位置的ubuntu安装方式：https://loopguy.com/post/how-to-install-ubuntu-wsl-in-a-custom-location-windows-subsystem-for-linux
@@ -53,7 +53,7 @@ wsl
 
 创建普通用户
 ```shell
-adduser hongzhilian
+adduser <user_name>
 ```
 
 加入sudo权限组
