@@ -10,6 +10,8 @@ publish: true
 ---
 # ChatGPT/Codex Remote SSH 连接 Windows 时出现 socket hang up：根因与修复
 
+{{< figure src="/attachment/2026-09-27.png" alt="2026-09-27" width="528" >}}
+
 ## 1. 症状与结论
 
 ChatGPT/Codex Desktop 通过 Remote SSH 连接 Windows 主机 时，界面显示 `socket hang up`。当时 SSH、Tailscale 和目标端口均可连通。
@@ -53,7 +55,7 @@ Error: socket directory is not private to the current user
 ```
 
 app-server 因此无法就绪。客户端连接 `app-server-control.sock` 时出现 `os error 10061`，Desktop 最终显示 `socket hang up`。排查时，先查看 app-server 的 ACL 错误。
-
+{{< figure src="/attachment/Pasted%20image%2020260927204534.png" alt="Pasted image 20260927204534" width="205" >}}
 ## 4. 修复方法
 
 先完全退出 ChatGPT/Codex Desktop，并确认 Remote SSH 的实际登录用户

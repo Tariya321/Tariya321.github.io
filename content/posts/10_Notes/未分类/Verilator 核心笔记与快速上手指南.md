@@ -23,6 +23,12 @@ publish: yes
 | **代码检查 (Lint)** | 极其严格 (编译时强制进行静态代码检查) | 较宽松 |
 | **授权与费用** | 开源免费 (LGPL v3) | 昂贵的商业授权 |
 
+注意：
+- 这里的仿真速度极快是与event-driven仿真器对比的
+- verilator的典型速度是15k/second，而通用cpu的频率已经来到GHz（也即billion cycle/second）。对比之下慢了千倍
+
+
+
 ---
 
 ## 2. 核心优势与局限性

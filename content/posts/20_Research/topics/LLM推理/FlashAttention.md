@@ -3,9 +3,6 @@ title: FlashAttention：IO-aware Exact Attention
 aliases:
   - FlashAttention
   - Flash Attention
-  - FlashAttention-2
-  - FlashAttention-3
-  - FlashAttention-4
 tags:
   - AI
   - AI/attention
@@ -212,7 +209,7 @@ for each Q block Q_i:
 
 所以“FlashAttention 对 Prefill 很快”不能直接推出“它对所有 Decode 都最快”。在 LLM serving 中，应该让 runtime 根据 query 长度、KV Cache 组织方式、batch 和 GPU 选择合适的 attention backend。
 
-这也是为什么 FlashAttention 与 PagedAttention 的关注点不同：前者主要优化 Attention tile 的计算与 IO，后者主要解决 paged KV Cache 的存储和访问组织；在具体系统中可以组合，但不是同一个算法。
+这也是为什么 FlashAttention 与 [PagedAttention](/posts/20_Research/topics/LLM%E6%8E%A8%E7%90%86/PagedAttention/) 的关注点不同：前者主要优化 Attention tile 的计算与 IO，后者主要解决 paged KV Cache 的存储和访问组织；在具体系统中可以组合，但不是同一个算法。
 
 ### 6.3. Causal、varlen、MQA/GQA 与局部窗口
 

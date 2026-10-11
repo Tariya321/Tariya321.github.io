@@ -1,10 +1,11 @@
 ---
-title: "算力、带宽和HBM技术"
+title: "算力、带宽和High-Bandwidth技术"
 date: 2026-09-16
 tags:
   - 后摩尔
 publish: true
 ---
+[AI 的五层蛋糕](/posts/AI%20%E7%9A%84%E4%BA%94%E5%B1%82%E8%9B%8B%E7%B3%95/)
 
 ## 1. 算力和 TOPS 单位
 ---
@@ -33,5 +34,20 @@ bus width 是指（微型）计算机的数据总线宽度，一般以 bit 表�
 例如计算一个 64bit 机器的 DDR4-3200 的带宽
 $$\rm{bandwidth = 3200\times 64/8 = 25600\quad MB/s}$$
 
+## 3. HBF
+
+高带宽闪存（High-Bandwidth Flash，HBF）。它把 NAND 闪存堆叠起来，直接挂到 GPU 的存储通道上，读延迟比 SSD 低约一个数量级，带宽也高出好几倍。
+
+
+当 GPU 需要 SSD 中的模型权重时，通常需要：
+1. 发起存储 I/O 请求。
+2. SSD Controller 从 NAND 中读取数据。
+3. 数据经过 PCIe 传输。
+4. 将数据放入 GPU 可访问的内存（通常是 HBM）。
+5. GPU 再从 HBM 读取权重进行计算。
+
+而 HBF 技术则无需再走 PCIe 通道，数据不再需要绕道
+
+![算力、带宽和High-Bandwidth技术](/attachment/%E7%AE%97%E5%8A%9B%E3%80%81%E5%B8%A6%E5%AE%BD%E5%92%8CHigh-Bandwidth%E6%8A%80%E6%9C%AF.png)
 
 
