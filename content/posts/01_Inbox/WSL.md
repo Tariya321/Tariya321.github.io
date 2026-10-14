@@ -58,6 +58,14 @@ wsl --shutdown
 wsl
 ```
 
+### 1.2. 关闭 window 路径注入
+在 wsl 配置文件 `/etc/wsl.conf` 中增加
+```
+[interop]
+appendWindowsPath=false
+```
+然后重启 wsl 即可
+
 ## 2. usage
 
 ### 2.1. usb透传

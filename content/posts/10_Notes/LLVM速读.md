@@ -9,7 +9,7 @@ publish: true
 > [!summary] 一句话理解
 > LLVM 是一套模块化、可复用的编译器基础设施：前端负责理解源语言，LLVM IR 负责承载和优化程序，后端负责生成目标硬件代码。
 
-**LLVM**（原名 *Low Level Virtual Machine*）是一个**模块化、可复用的编译器和工具链技术集合**。
+**LLVM**（原名 *Low Level Virtual Machine*）是一个**模块化、可复用的编译器和工具链技术集合**
 
 它是 Rust、Swift、Clang/C++、Julia 等现代语言背后的“**编译引擎底座**”。
 
