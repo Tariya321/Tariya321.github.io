@@ -1,6 +1,6 @@
 ---
 title: "conda的安装与配置指南"
-date: 2025-03-21_18:33
+date: 2025-03-21T18:33:00+08:00
 tags:
   - conda
   - linux

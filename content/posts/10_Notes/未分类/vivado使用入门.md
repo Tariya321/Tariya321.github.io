@@ -1,6 +1,6 @@
 ---
 title: "vivado使用入门"
-date: 2025-06-09_23:20
+date: 2025-06-09T23:20:00+08:00
 tags:
   - vivado
   - EDA

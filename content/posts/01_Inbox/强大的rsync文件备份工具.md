@@ -1,6 +1,6 @@
 ---
 title: "强大的rsync文件备份工具"
-date: 2025-06-14_21:23
+date: 2025-06-14T21:23:00+08:00
 tags:
   - linux
   - rsync

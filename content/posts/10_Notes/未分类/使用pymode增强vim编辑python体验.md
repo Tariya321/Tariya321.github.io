@@ -1,6 +1,6 @@
 ---
 title: "使用pymode增强vim编辑python体验"
-date: 2025-05-22_20:52
+date: 2025-05-22T20:52:00+08:00
 tags:
   - vim
   - 插件

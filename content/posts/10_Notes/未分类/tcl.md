@@ -4,7 +4,7 @@ tags:
   - EDA
   - linux
   - tcl
-date: 2025-07-04_19:50
+date: 2025-07-04T19:50:00+08:00
 publish: yes
 ---
 ## 1. why we use TCL?

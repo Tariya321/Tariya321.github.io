@@ -1,6 +1,6 @@
 ---
 title: "use batt to control mac battery rule"
-date: 2025-06-09_23:18
+date: 2025-06-09T23:18:00+08:00
 tags:
   - macbook
   - battery

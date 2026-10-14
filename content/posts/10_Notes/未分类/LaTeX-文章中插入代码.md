@@ -1,6 +1,6 @@
 ---
 title: "LaTeX-文章中插入代码"
-date: 2025-06-09_23:11
+date: 2025-06-09T23:11:00+08:00
 tags:
   - latex
 publish: yes

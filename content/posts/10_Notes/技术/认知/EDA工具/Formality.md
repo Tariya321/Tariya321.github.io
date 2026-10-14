@@ -4,7 +4,7 @@ tags:
   - verification
   - synopsys
   - EDA
-date: 2025-06-09_23:19
+date: 2025-06-09T23:19:00+08:00
 publish: yes
 ---
 形式验证

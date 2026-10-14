@@ -1,6 +1,6 @@
 ---
 title: "docker部署YesPlayMusic"
-date: 2025-04-24_13:49
+date: 2025-04-24T13:49:00+08:00
 tags:
   - docker
   - music

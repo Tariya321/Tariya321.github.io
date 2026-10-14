@@ -1,6 +1,6 @@
 ---
 title: "mac使用ssh+x11转发打开gui"
-date: 2025-07-05_12:14
+date: 2025-07-05T12:14:00+08:00
 tags:
   - macbook
   - ssh

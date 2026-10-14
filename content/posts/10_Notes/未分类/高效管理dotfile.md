@@ -5,7 +5,7 @@ tags:
   - dotfile
   - linux
 publish: yes
-date: 2025-06-09_23:15
+date: 2025-06-09T23:15:00+08:00
 ---
 
 dotfile 是什么？

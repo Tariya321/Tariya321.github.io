@@ -1,6 +1,6 @@
 ---
 title: "使用 RDP 远程桌面服务"
-date: 2025-04-14_16:10
+date: 2025-04-14T16:10:00+08:00
 tags:
   - linux
   - server
