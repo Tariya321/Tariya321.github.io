@@ -53,6 +53,11 @@ default=user
 ```
 然后 terminate 这个系统，重启即可生效
 
+```
+wsl --shutdown
+wsl
+```
+
 ## 2. usage
 
 ### 2.1. usb透传
@@ -82,5 +87,9 @@ attach后在WSL2端可以用`lsusb`检查附着情况
 > [!NOTE] 永久和非永久
 > 重启wsl系统、断开USB设备，均需要重新attach
 > bind则是永久share了PC的某个USB口
+
+字体问题
+{{< figure src="/attachment/WSL.png" alt="WSL" width="539" >}}
+到[网页](https://fonts.google.com/specimen/Ubuntu+Mono?utm_source=chatgpt.com)下载 字体 zip 包，window 上安装即可
 
 

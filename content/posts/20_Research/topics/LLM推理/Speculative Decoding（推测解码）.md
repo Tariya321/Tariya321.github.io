@@ -14,8 +14,11 @@ publish: yes
 > [!abstract] 摘要
 > 让便宜的 **Draft Model** 先连续猜测一小段 token，再让昂贵的 **Target Model** 一次性验证；正确的 draft token 直接接受，首次拒绝后丢弃其后的 draft 后缀并从正确上下文继续生成。
 
+
+
 > [!tip] 核心目标
 > Speculative decoding 主要减少的是 Target Model 的**串行 decode 调用次数**，而不是让 Target Model 完全不运行。它用额外的 draft 计算，换取 Target Model 更高的并行度、权重读取复用率和硬件利用率。
+
 
 ## 1. 背景
 

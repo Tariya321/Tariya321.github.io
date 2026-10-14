@@ -13,17 +13,29 @@ publish: yes
 
 勾选打开“**启用或关闭Windows功能**”下功能：virtual machine platform、window 虚拟机监控程序平台、适用于linux的window子系统；window11还可以打开hyper-V功能
 
+或者
+```
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
+
+
 **重启电脑**
 
 命令设置默认为WSL-2版本
-`wsl --set-default-version 2`
+```
+wsl --set-default-version 
+```
+
+
 
 报信息：“适用于 Linux 的 Windows 子系统必须更新到最新版本才能继续。可通过运行 “wsl.exe --update” 进行更新。”
 
 使用“wsl.exe --update“后报信息：已禁止(403)。
 网页提示：https://www.bytezonex.com/archives/51juM4wc.html
 
-到**github网站下载最新的wsl.msi文件**，双击安装后再次设置
+到 [github仓库](https://github.com/microsoft/wsl/releases) 下载最新的wsl.msi文件，双击安装后再次设置
 ```
 wsl --set-default-version 2
 ```

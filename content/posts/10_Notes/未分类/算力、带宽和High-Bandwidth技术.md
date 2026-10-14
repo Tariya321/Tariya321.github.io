@@ -5,7 +5,7 @@ tags:
   - 后摩尔
 publish: true
 ---
-[AI 的五层蛋糕](/posts/AI%20%E7%9A%84%E4%BA%94%E5%B1%82%E8%9B%8B%E7%B3%95/)
+[AI 的五层蛋糕](/posts/10_Notes/AI%20%E7%9A%84%E4%BA%94%E5%B1%82%E8%9B%8B%E7%B3%95/)
 
 ## 1. 算力和 TOPS 单位
 ---

@@ -28,6 +28,23 @@ clash 开着访问外网时，开启 ts 并使用 ts-ip ssh 访问机器
 "IP-CIDR,100.64.0.0/10,DIRECT,no-resolve"
 ```
 
+以及建议添加 global extend config
+```
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+
+  fake-ip-filter:
+    - "*.lan"
+    - "*.local"
+    - "localhost.ptlogin2.qq.com"
+
+  nameserver:
+    - 223.5.5.5
+    - 1.1.1.1
+```
 
 refs：
 https://jiz4oh.com/2024/09/tailscale-with-clash/

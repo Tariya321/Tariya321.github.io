@@ -209,5 +209,5 @@ $$
 
 - [LoRA低秩适应](/posts/20_Research/topics/LLM%E6%8E%A8%E7%90%86/LoRA%E4%BD%8E%E7%A7%A9%E9%80%82%E5%BA%94/)：结合第 2、6 节理解参数高效微调。**LoRA specifies how parameters are adapted; distillation specifies the teacher-derived supervision.** 两者可以结合，但 LoRA 本身不等于蒸馏。
 - [量化方案](/posts/20_Research/topics/LLM%E6%8E%A8%E7%90%86/%E9%87%8F%E5%8C%96%E6%96%B9%E6%A1%88/)：结合第 6 节区分低精度表示与教师监督；该笔记介绍数据格式、位宽和量化表示，有助于理解蒸馏后进一步量化的部署选择。
-- pruning-模型剪枝技术：结合第 6 节比较剪枝与蒸馏；该笔记介绍权重裁剪及阈值、梯度剪枝，可作为另一条模型压缩路线的入门。
+- Pruning-模型剪枝技术：结合第 6 节比较剪枝与蒸馏；该笔记介绍权重裁剪及阈值、梯度剪枝，可作为另一条模型压缩路线的入门。
 - LLM inference：结合第 7 节理解部署评测中的 prefill、decode、TTFT、ITL 和 KV Cache，检查蒸馏后的收益体现在哪个推理阶段。
